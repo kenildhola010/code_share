@@ -3,9 +3,11 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const app = express();
+require('dotenv').config();
+
 // middlewares
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: process.env.FRONTEND_URL,
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
@@ -20,7 +22,7 @@ const { Server } = require("socket.io");
 const httpServer = http.createServer(app);
 const io = new Server(httpServer, {
     cors: {
-        origin: "http://localhost:5173",
+        origin: process.env.FRONTEND_URL,
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true
     }
@@ -30,7 +32,13 @@ const io = new Server(httpServer, {
 //import conn and coll
 require("./conn.js");
 const rdata = require("./coll.js");
-const { useState } = require('react');
+
+
+
+
+
+
+
 
 
 
@@ -184,6 +192,6 @@ io.on('connection', (socket) => {
 
 
 
-httpServer.listen(3000, () => {
+httpServer.listen(process.env.PORT, () => {
     console.log('listening on *:3000');
 });
