@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 
 //connection
-mongoose.connect("mongodb://127.0.0.1/codeshare", {
+mongoose.connect(process.env.MONGODB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
