@@ -53,6 +53,7 @@
 - It has functionalities like user can create their own room with room id and username. Room id is randomely generated using uuid and it is always unique.<br/>
 - Multiple users can join to the room and write & share their code in real time with their room members.They can also change the language according to their project.<br/>
 - They can also see how many users are present in their room.<br />
+- If all the users leave the room and then come back to the same room then the data will be remain in the room.They can get their original data in the same form.<br/> 
 
 ### Built With
 
@@ -60,6 +61,7 @@
 * [ExpressJS](https://expressjs.com/)
 * [ReactJS](https://reactjs.org/)
 * [Socket.io](https://socket.io/)
+* [MongoDB](https://www.mongodb.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
