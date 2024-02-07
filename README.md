@@ -3,11 +3,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <!-- <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://codeshare.co.uk/img/codeshare.png" alt="Logo" width="180" height="80">
-  </a> -->
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://res.cloudinary.com/dl2rrnqxi/image/upload/v1707288039/Yash/CodeShareLogo.png" alt="Logo" width="180" height="80">
+  </a>
 
-  <h3 align="center">Code Share</h3>
+  <h3 align="center">CodeShare</h3>
 
   <p align="center">
     <br />
@@ -45,7 +45,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
- ![CodeShare](https://res.cloudinary.com/dl2rrnqxi/image/upload/v1707287547/Yash/hzgxat5dxmffbljvq5vc.png)
+ ![CodeShare](https://res.cloudinary.com/dl2rrnqxi/image/upload/v1707287547/Yash/CodeShare.png)
 
 ### Features
 
