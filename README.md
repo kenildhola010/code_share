@@ -3,9 +3,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <!-- <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://codeshare.co.uk/img/codeshare.png" alt="Logo" width="180" height="80">
-  </a>
+  </a> -->
 
   <h3 align="center">Code Share</h3>
 
@@ -45,6 +45,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+ <!-- ![]() -->
 
 ### Features
 
@@ -53,7 +54,7 @@
 - It has functionalities like user can create their own room with room id and username. Room id is randomely generated using uuid and it is always unique.<br/>
 - Multiple users can join to the room and write & share their code in real time with their room members.They can also change the language according to their project.<br/>
 - They can also see how many users are present in their room.<br />
-- If all the users leave the room and then come back to the same room then the data will be remain in the room.They can get their original data in the same form.<br/> 
+- If all the users leave the room and then come back to the same room then the data will be remained in the room.They can get their original data in the same form.<br/> 
 
 ### Built With
 
