@@ -37,7 +37,8 @@ function Dash() {
 
     useEffect(() => {
         if (id && username && !socket) {
-            const socketConn = io('http://localhost:3000/');
+            const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000';
+            const socketConn = io(BACKEND_URL);
             socketConn.emit('Update_users', { id, username });
             setSocket(socketConn);
         }

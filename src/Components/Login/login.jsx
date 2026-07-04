@@ -21,8 +21,9 @@ function Login() {
             return;
         } else {
             localStorage.setItem('name', name.trim());
+            const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000';
             try {
-                await axios.post('http://localhost:3000/data', senddata);
+                await axios.post(`${BACKEND_URL}/data`, senddata);
                 navigate(`room/${roomid.trim()}`);
             } catch (error) {
                 console.error('Error:', error);
