@@ -3,17 +3,15 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://res.cloudinary.com/dl2rrnqxi/image/upload/v1707290185/Yash/CodeShareLogo.png" alt="Logo" width="180" height="120">
-  </a>
+  <img src="public/logo.png" alt="Logo" width="120" height="120" style="border-radius: 20px;">
 
   <h3 align="center">CodeShare</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/yr004-yash/Code_Share/issues">Report Bug</a>
+    <a href="https://github.com/kenildhola010/code_share/issues">Report Bug</a>
     ·
-    <a href="https://github.com/yr004-yash/Code_Share/issues">Request Feature</a>
+    <a href="https://github.com/kenildhola010/code_share/issues">Request Feature</a>
   </p>
 </p>
 
@@ -45,7 +43,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
- ![CodeShare](https://res.cloudinary.com/dl2rrnqxi/image/upload/v1707287547/Yash/CodeShare.png)
+ ![CodeShare](public/screenshot.png)
 
 ### Features
 
@@ -75,7 +73,7 @@ To get a local copy up and running follow these simple example steps.
 
 Fork, then download or clone the repo.
 ```bash
-git clone https://github.com/yr004-yash/Code_Share.git
+git clone https://github.com/kenildhola010/code_share.git
 ```
 
 For the **back-end**, install the dependencies once via the terminal.
@@ -133,9 +131,9 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Yash Savani - [@Yash Savani](https://www.linkedin.com/in/yash-savani-43b80b229/) - yashsavani004@gmail.com
+Kenil Dhola - [@kenildhola010](https://github.com/kenildhola010)
 
-Project Link: [https://github.com/yr004-yash/Code_Share](https://github.com/yr004-yash/Code_Share)
+Project Link: [https://github.com/kenildhola010/code_share](https://github.com/kenildhola010/code_share)
 
 
 
