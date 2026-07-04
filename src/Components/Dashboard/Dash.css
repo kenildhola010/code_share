@@ -2,43 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-.p-splitter-gutter-handle{
-    background-color: rgb(255, 255, 255);
-}
-.p-splitter-gutter{
-    background-color: rgb(21, 21, 25);
-}
-.p-splitter-gutter:hover{
-    background-color:rgb(82, 74, 74);
-    opacity: 50%;
+/* CodeMirror layout & theme integrations */
+.CodeMirror {
+    height: calc(100vh - 4rem) !important;
+    font-family: 'Fira Code', 'JetBrains Mono', monospace !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    background: #070a12 !important;
 }
 
-.CodeMirror.cm-s-darcula{
-    height: 100vh !important;
-    overflow-x: hidden;
+.CodeMirror-gutters {
+    background-color: #070a12 !important;
+    border-right: 1px solid rgba(30, 41, 59, 0.4) !important;
 }
 
-.user-avatar{
-    background: linear-gradient(135deg, rgb(196, 192, 192),rgb(91, 89, 89))!important;
-    /* margin-left: -10px !important; */
-    background-color: aqua !important;
-    overflow-x: hidden;
+.CodeMirror-linenumber {
+    color: #475569 !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
 }
 
-.onlineUsers{
-    display: flex !important;
-    overflow-x: hidden !important;
-    /* margin-left: 3rem !important; */
-    border-radius: 1rem;
+.CodeMirror-cursor {
+    border-left: 2px solid #6366f1 !important;
 }
 
-.divider {
-    position: absolute;
-    left: 50%;
-    border-left: 1px solid black;
-    height: 100%;
+.CodeMirror-activeline-background {
+    background: rgba(99, 102, 241, 0.04) !important;
 }
 
-.custom-select.MuiInputBase-root {
-    color: rgb(163, 162, 162);                  /* Text color */
+.CodeMirror-selected {
+    background: rgba(99, 102, 241, 0.2) !important;
 }
+
+/* Custom Autocomplete Hints Styling */
+.CodeMirror-hints {
+    background-color: #0f172a !important;
+    border: 1px solid #1e293b !important;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3) !important;
+    padding: 6px !important;
+}
+
+.CodeMirror-hint {
+    color: #94a3b8 !important;
+    border-radius: 4px !important;
+    padding: 6px 12px !important;
+    font-family: 'Fira Code', monospace !important;
+    font-size: 12px !important;
+}
+
+li.CodeMirror-hint-active {
+    background-color: #4f46e5 !important;
+    color: #ffffff !important;
+}
+
+/* Custom Scrollbars */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(30, 41, 59, 0.8);
+    border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(99, 102, 241, 0.4);
+}
+
+/* Webkit autofill fix for dark theme inputs */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #ffffff !important;
+    -webkit-box-shadow: 0 0 0px 1000px #090d16 inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
