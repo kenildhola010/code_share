@@ -87,10 +87,8 @@ function Dash() {
             <main className="flex-1 flex flex-col h-full bg-[#070a12]/80 z-10 overflow-hidden">
                 {/* Editor Header */}
                 <header className="h-16 border-b border-slate-900 px-6 flex items-center justify-between bg-slate-950/40 backdrop-blur-md">
-                    <div className="flex items-center gap-2">
-                        <div className="w-8 h-8 rounded-lg bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-indigo-400 font-bold">
-                            &lt;/&gt;
-                        </div>
+                    <div className="flex items-center gap-3">
+                        <img src="/logo.png" alt="CodeShare Logo" className="w-8 h-8 rounded-lg border border-slate-800 shadow" />
                         <span className="font-extrabold text-white tracking-tight">CodeShare</span>
                     </div>
 
